@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Snake</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Squada One">
+    <link rel="stylesheet" type="text/css"  href='style.css' />
+</head>
+
+
+<body>
+  <div class="container mt-5 snakeHeader">
+    <div class="row justify-content-md-center">
+      <div id="scoreBox" class="col col-lg-5"></div>
+      <div id="highScoreBox" class="col col-lg-5 text-right"></div>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+  <script src="snake.js"></script>
+
+  <div class="container mt-3 snakeButtons">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-4"><button id="smallButton" type="button" class="btn btn-dark btn-lg btn-block">Small World<br><small>HighScore: 0</small></button></div>
+      <div class="col col-lg-4"><button id="standardButton" type="button"  class="active btn btn-dark btn-lg btn-block">Standard World<br><small>HighScore: 0</small></button></div>
+      <div class="col col-lg-4 text-right"><button type="button" id="largeButton" class="btn btn-dark btn-lg btn-block">Large World<br><small>HighScore: 0</small></button></div>
+    </div>
+  </div>
+</body>
+
+</html>
